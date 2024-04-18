@@ -3,6 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 from itertools import permutations
+from rich.pretty import pprint
 
 
 def load_distance_matrix(path: Path) -> pd.DataFrame:
@@ -48,7 +49,7 @@ def main():
 
         v = calculate_transport_cost(local_tm, distance_matrix)
 
-        print(f"{''.join(perm)} -> {v}")
+        pprint(f"{''.join(perm)} -> {v}")
 
 
 if __name__ == "__main__":

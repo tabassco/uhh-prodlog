@@ -1,0 +1,9 @@
+index,1,2,3,4,5,6,7
+Bohren,1,0,1,1,0,0,0
+Drehen,0,0,1,1,0,0,0
+Fraesen,1,0,0,1,0,1,0
+Einzelkontrolle,0,0,0,0,1,0,0
+Entgraten,0,0,0,0,0,0,1
+Montieren,0,0,0,0,1,0,1
+Reinigen,0,1,0,0,0,1,0
+Schleifen,0,1,0,0,0,1,1
